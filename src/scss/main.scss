@@ -1,0 +1,27 @@
+@import "core/reset";
+@import "components/code";
+@import "components/links";
+@import "layout/page";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/hero";
+@import "layout/benefit";
+@import "pages/index";
+@import "core/variables";
+
+/* reset styles */
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+}
+
+/* main */
+
+.main {
+  margin-top: 60px; /* esto es lo que mide el header */
+}
