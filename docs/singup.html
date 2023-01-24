@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="./assets/images/logo.png" alt="Logo">
+        </figure>
+    </header>
+    <main>
+        <h1>Regístrate gratis para escuchar</h1>
+        <a href="#">
+            <div>Regístrate con Facebook</div>
+        </a>
+        <a href="#">
+            <div>Regístrate con Google</div>
+        </a>
+        <section>
+            <span>o</span>
+            <h2>Regístrate con tu correo electrónico</h2>
+            <form action="https://adalab-server-form.herokuapp.com/" method="POST">
+                <label for="emailType">¿Cuál es tu correo electrónico?</label>
+                <input type="email" placeholder="Pon tu correo electrónico." name="emailType" id="emailType">
+
+                <label for="emailType">Confirma el correo electrónico</label>
+                <input type="email" placeholder="Vuelve a poner tu correo electrónico." name="emailType" id="emailType">
+
+                <label for="passwordType">Crea una contraseña</label>
+                <input type="password" placeholder="Crea una contraseña" name="passwordType" id="passwordType">
+
+                <label for="nameType">¿Cómo quieres que te llamemos?</label>
+                <input type="text" placeholder="Pon un nombre de perfil." name="nameType" id="nameType">
+                <label for="nameType">Esto aparece en tu perfil.</label>
+
+
+            </form>
+        </section>
+    </main>
+</body>
+</html>
